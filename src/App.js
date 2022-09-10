@@ -5,7 +5,7 @@ import ProductList from "./ProductList";
 import { Container, Row, Col } from "reactstrap";
 import alertify from "alertifyjs";
 import NotFound from "./NotFound";
-import CartList from "./CartList";
+import CartList from "./CartList"; 
 import FormDemo1 from "./FormDemo1";
 import FormDemo2 from "./FormDemo2";
 import { Route, Switch } from "react-router-dom";

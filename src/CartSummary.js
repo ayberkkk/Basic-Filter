@@ -8,7 +8,7 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; 
 export default class CartSummary extends Component {
   renderSummary() {
     return (

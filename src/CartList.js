@@ -6,7 +6,7 @@ export default class CartList extends Component {
   renderCart() {
     return (
       <Table striped>
-        <thead>
+        <thead> 
           <tr>
             <th>#</th>
             <th>Category Id</th>

@@ -5,7 +5,7 @@ export default class CategoryList extends Component {
   state = {
     categories: [],
   };
-  componentDidMount() {
+  componentDidMount() { 
     this.getCategories();
   }
   getCategories = () => {

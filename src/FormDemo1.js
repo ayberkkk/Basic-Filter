@@ -9,7 +9,7 @@ export default class FormDemo1 extends Component {
     let name = event.target.name;
     let value = event.target.value;
     this.setState({ [name]: value });
-  };
+  }; 
   onSubmitHandler = (event) => {
     event.preventDefault(); //Save butonuna bastığında sepeti boşaltmaması için
     alert(this.state.name);
