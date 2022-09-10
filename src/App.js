@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Navigation from "./Navigation"; //navigation component
 import CategoryList from "./CategoryList";
 import ProductList from "./ProductList";
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col } from "reactstrap"; 
 import alertify from "alertifyjs";
 import NotFound from "./NotFound";
 import CartList from "./CartList"; 

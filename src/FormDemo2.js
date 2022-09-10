@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Button, Form, FormGroup, Label, Input, TextArea } from "reactstrap";
 import alertify from "alertifyjs";
-
+ 
 export default class FormDemo2 extends Component {
   state = { email: "", password: "", city: "", description: "" };
   onChangeHandler = (event) => {
