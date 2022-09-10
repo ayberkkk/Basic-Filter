@@ -9,7 +9,7 @@ import CartList from "./CartList";
 import FormDemo1 from "./FormDemo1";
 import FormDemo2 from "./FormDemo2";
 import { Route, Switch } from "react-router-dom";
-
+ 
 export default class App extends Component {
   state = { currentCategory: "", products: [], cart: [] };
   changeCategory = (category) => {

@@ -12,7 +12,7 @@ export default class Product extends Component {
         <h3>
           {this.props.info.title} - {this.props.currentCategory}
         </h3>
-        <Table> 
+        <Table>  
           <thead>
             <tr>
               <th>#</th>

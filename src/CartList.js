@@ -5,7 +5,7 @@ import { Table, Button } from "reactstrap";
 export default class CartList extends Component {
   renderCart() {
     return (
-      <Table striped>
+      <Table striped> 
         <thead> 
           <tr>
             <th>#</th>

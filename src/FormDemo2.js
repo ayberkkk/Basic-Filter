@@ -8,7 +8,7 @@ export default class FormDemo2 extends Component {
     //this.setState({userName: event.target.value })
 
     let name = event.target.name;
-    let value = event.target.value;
+    let value = event.target.value; 
     this.setState({ [name]: value }); 
   };
   onSubmitHandler = (event) => {

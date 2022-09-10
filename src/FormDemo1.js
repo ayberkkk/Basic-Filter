@@ -5,7 +5,7 @@ export default class FormDemo1 extends Component {
   state = { userName: "", surName: "" };
   onChangeHandler = (event) => {
     //this.setState({userName: event.target.value })
-
+ 
     let name = event.target.name;
     let value = event.target.value;
     this.setState({ [name]: value });
